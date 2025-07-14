@@ -49,7 +49,7 @@ For support or feature requests, please contact:
 
 ## Screenshots
 
-![Screenshots](images/screenshots1.png)
+![Screenshots](images/screenshot1.png)
 
 ## License
 
