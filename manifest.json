@@ -1,0 +1,42 @@
+{
+  "name": "Sovex Task Master",
+  "short_name": "Sovex",
+  "description": "A modern task management application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4a6fa5",
+  "theme_color": "#4a6fa5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "description": "Task list view"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add New Task",
+      "short_name": "Add Task",
+      "description": "Create a new task",
+      "url": "/?new-task",
+      "icons": [{ "src": "icons/add-task.png", "sizes": "192x192" }]
+    }
+  ]
+}

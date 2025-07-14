@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline | Sovex Task Master</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background-color: #f1f5f9;
+            color: #1e293b;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            max-width: 400px;
+        }
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #4a6fa5;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">⚠️</div>
+    <h1>You're Offline</h1>
+    <p>This app requires an internet connection. Please check your network connection and try again.</p>
+    <button onclick="window.location.reload()">Retry</button>
+</body>
+</html>
